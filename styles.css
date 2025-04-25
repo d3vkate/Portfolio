@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bfc9ca; /* Light background color */
+    color: #262424; /* Dark text color */
+}
+
+header {
+    background-color: #08343c; /* Dark background for header */
+    color: #bfc9ca; /* Light text color for header */
+    padding: 210px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    border-bottom: 2px solid #08343c; /* Underline for section titles */
+    padding-bottom: 10px;
+}
+
+main {
+    padding: 100px;
+}
+
+
+.project {
+    background-color: #FFF; /* White background for project sections */
+    border: 1px solid #08343c; /* Dark border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #08343c; /* Dark text color for links */
+    padding: 10px 15px;
+    border: 1px solid #08343c; /* Dark border for buttons */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-media a:hover {
+    background-color: #08343c; /* Dark background on hover */
+    color: #bfc9ca; /* Light text color on hover */
+}
+
+footer {
+    background-color: #08343c; /* Dark background for footer */
+    color: #bfc9ca; /* Light text color for footer */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
